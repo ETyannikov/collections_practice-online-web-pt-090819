@@ -36,8 +36,7 @@ end
 
 def find_a(array)
   array.select do |a|
-    if !a.start_with?("a")
-      array.delete_at(index)
+     !a.start_with?("a")
     end
   end
 end
