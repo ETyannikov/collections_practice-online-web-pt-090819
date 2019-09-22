@@ -36,7 +36,8 @@ end
 
 def find_a(array)
   array.each_with_index do |a|
-    
+    if a.starts_with?"a"
+  end
 end
 
 
